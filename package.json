@@ -1,0 +1,14 @@
+{
+  "name": "ive-dev-generate-pre-signed-upload-s3-url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "preetham",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.908.0"
+  }
+}
