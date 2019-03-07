@@ -4,7 +4,7 @@ const s3 = new AWS.S3({ signatureVersion: 'v4' });
 
 exports.handler = (event, context, callback) => {
     let responseCode = 200;
-    const bucket = process.env.bucket || 'uploadapi1'
+    const bucket = process.env.bucket
     const key = event['fileName'];
 
     try {
