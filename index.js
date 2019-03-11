@@ -14,7 +14,6 @@ exports.handler = (event, context, callback) => {
 
         if (!key) {
             callback(new Error('FileName is missing'));
-            return;
         }
         const params = { 'Bucket': bucket, 'Key': key };
 
